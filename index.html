@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pet Adoption Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #4CAF50;
+        padding: 10px 0;
+        color: white;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav ul li a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        color: #4CAF50;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+      }
+
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .image-container {
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        position: relative;
+        margin-bottom: 20px;
+      }
+
+      .image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">홈</a></li>
+          <li><a  href="https://output.jsbin.com/ceziqoj/4/" target="_blank">입양</a></li>
+          <li><a href="/donate">후원</a></li>
+          <li><a href="https://jsbin.com/zijotey/" target="_blank">펫 팁</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>가족을 찾아요!</h1>
+      <div class="content">
+        <p>구조 동물 입양 센터에 오신 것을 환영합니다.</p>
+        <p>(070)7999-723</p>
+        <div class="image-container">
+          <img src="https://source.unsplash.com/800x450/?dog,cat" alt="귀여운 동물">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Pet Adoption Center</p>
+    </footer>
+  </body>
+</html>
